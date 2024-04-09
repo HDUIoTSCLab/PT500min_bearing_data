@@ -1,6 +1,6 @@
 杭州电子科技大学物联传感和控制实验室
 
-该轴承数据集是由杭州电子科技大学物联传感和控制实验室所公开的轴承振动数据集，数据集的谷歌云盘下载链接为 https://drive.google.com/file/d/123dhOxmObFE8vo-k435_pktIvH1RmGJB/view?usp=sharing
+该轴承数据集是由杭州电子科技大学物联传感和控制实验室所公开的轴承振动数据集，数据集的谷歌云盘下载链接为https://drive.google.com/file/d/1f6hoVPgafDLYWiHRAcl62yFCRSgfY3pr/view?usp=drive_link 
 
 本数据集从PT500min轴承加载故障模拟实验台上获得，包含了正常N、内圈故障I、外圈故障O、滚动体故障B、保持架故障T、内圈外圈复合故障I+O、内圈滚动体复合故障I+B、内圈保持架复合故障I+T、外圈滚动体复合故障O+B、内圈外圈滚动体复合故障I+O+B等十种轴承故障的振动加速度数据，文件格式为.mat格式。 每种轴承故障数据都包含了两个文件夹：1：rpm1000_变负载，2：变转速_f600
 

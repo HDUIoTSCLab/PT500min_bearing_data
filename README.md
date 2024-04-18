@@ -1,9 +1,11 @@
-杭州电子科技大学物联传感和控制实验室
+Hangzhou Dianzi University _ Science and Technology Laboratory for Internet of Things Sensing and Control
 
-该轴承数据集是由杭州电子科技大学物联传感和控制实验室所公开的轴承振动数据集，数据集的谷歌云盘下载链接为https://drive.google.com/file/d/1f6hoVPgafDLYWiHRAcl62yFCRSgfY3pr/view?usp=drive_link 
+The bearing dataset is publicly available from the Laboratory for Internet of Things Sensing and Control at Hangzhou Dianzi University. The Google Drive download link for the dataset is https://drive.google.com/file/d/1f6hoVPgafDLYWiHRAcl62yFCRSgfY3pr/view?usp=drive_link.
 
-本数据集从PT500min轴承加载故障模拟实验台上获得，包含了正常N、内圈故障I、外圈故障O、滚动体故障B、保持架故障T、内圈外圈复合故障I+O、内圈滚动体复合故障I+B、内圈保持架复合故障I+T、外圈滚动体复合故障O+B、内圈外圈滚动体复合故障I+O+B等十种轴承故障的振动加速度数据，文件格式为.mat格式。 每种轴承故障数据都包含了两个文件夹：1：rpm1000_变负载，2：变转速_f600
+This dataset was obtained from experiments simulating faults on PT500min bearings. It includes vibration acceleration data for ten types of bearing faults: Normal (N), Inner Race Fault (I), Outer Race Fault (O), Ball Fault (B), Cage Fault (T), Inner and Outer Race Compound Fault (I+O), Inner Race and Ball Compound Fault (I+B), Inner Race and Cage Compound Fault (I+T), Outer Race and Ball Compound Fault (O+B), and Inner and Outer Race and Ball Compound Fault (I+O+B). The file format is .mat
 
-1\rpm1000_变负载 该文件夹中包含了七种不同负载力下的轴承故障数据，转速固定为1000r/min，负载力分别为0、200、400、600、800、1000、1200（单位N） 2\变转速_f600 该文件夹中包含了七种不同负载力下的轴承故障数据，负载力固定为600N，转速分别为400、600、800、1000、1200、1400、1600（单位r/min）
+Each type of bearing fault data contains two folders:
+1.rpm1000_var_load: Contains data for seven different load forces at a fixed speed of 1000 rpm. The load forces are 0, 200, 400, 600, 800, 1000, and 1200 N.
+2.var_speed_f600: Contains data for seven different speeds at a fixed load force of 600 N. The speeds are 400, 600, 800, 1000, 1200, 1400, and 1600 rpm.
 
-每一种工况文件夹下都有10个.mat文件，代表采集了十次数据。 本实验平台的数据采样频率为10kHz，采样时间均为20~25s，有四个测振传感器进行采集，按维度顺序1-4行分别采集电机、轴承基座、轴承平行上端、轴承平行侧端，所以每个.mat文件中的数据维度均为（4，200000+），其中第一个维度代表的即是按顺序与前文相对应的四个不同测振位置，每个位置都有超过200000个数据点。
+Each folder for a specific operating condition contains 10 .mat files, representing ten data collections. The data sampling frequency of this experimental platform is 10 kHz, and the sampling time ranges from 20 to 25 seconds. Four vibration sensors are used for data collection, with data dimensions arranged in the order of 1-4 rows representing the motor, bearing base, bearing parallel upper end, and bearing parallel side end. Therefore, the data dimensions in each .mat file are (4, 200000+), where the first dimension corresponds to the four different vibration measurement positions mentioned above, each with over 200000 data points.

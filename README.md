@@ -8,5 +8,5 @@ Each folder for a specific operating condition contains 10 .mat files, represent
 
 Due to the large size of the entire dataset, it is not convenient to download directly. We have provided Baidu Netdisk download links for each type of fault data. The table below shows each type of fault and its corresponding download link:
 
-链接：https://pan.baidu.com/s/1ZwhtAA9kalHDKyBsD0RmvQ?pwd=DHUC 
+链接：https://pan.baidu.com/s/1TGXakp-ElC2csq_C3WUlKQ?pwd=DHUC 
 提取码：DHUC

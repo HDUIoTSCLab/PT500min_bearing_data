@@ -7,3 +7,5 @@ Each type of bearing fault data contains two folders: 1.rpm1000_var_load: Contai
 Each folder for a specific operating condition contains 10 .mat files, representing ten data collections. The data sampling frequency of this experimental platform is 10 kHz, and the sampling time ranges from 20 to 25 seconds. Four vibration sensors are used for data collection, with data dimensions arranged in the order of 1-4 rows representing the motor, bearing base, bearing parallel upper end, and bearing parallel side end. Therefore, the data dimensions in each .mat file are (4, 200000+), where the first dimension corresponds to the four different vibration measurement positions mentioned above, each with over 200000 data points.
 
 Due to the large size of the entire dataset, it is not convenient to download directly. We have provided Baidu Netdisk download links for each type of fault data. The table below shows each type of fault and its corresponding download link:
+
+Dataset will be provided until our paper is published.

@@ -13,8 +13,10 @@ For more details, please refer to https://doi.org/10.1109/TIM.2024.3470961.
 For dataset, each folder for a specific operating condition contains 10 .mat files, representing ten data collections. The data sampling frequency of this experimental platform is 10 kHz, and the sampling time ranges from 20 to 25 seconds. Four vibration sensors are used for data collection. Therefore, the data dimensions in each .mat file are (4, 200000+), where the first dimension corresponds to the four different vibration measurement positions mentioned above, each with over 200000 data points.
 
 Due to the large size of the entire dataset, it is not convenient to download directly. We have provided Baidu Netdisk download links for each type of fault data. The table below shows each type of fault and its corresponding download link:
+
 链接：https://pan.baidu.com/s/19pFnY28WbkZNfkbYOZu77Q?pwd=noo3 
 提取码：noo3
+
 ![DC31C8310FF02F1E6CB626527CA8BB8B](https://github.com/user-attachments/assets/52edc14f-02c3-413b-ac90-83304c9025cb)
 
 

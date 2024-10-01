@@ -2,6 +2,10 @@ This bearing dataset is publicly available from the Laboratory of Smart Sensing 
 
 This dataset was obtained from a bearing fault experimental platform. It includes vibration acceleration data for ten types of bearing faults: Normal (N), Inner Race Fault (IF), Outer Race Fault (OF), Ball Fault (BF), Cage Fault (CF), Inner and Outer Race Compound Fault (IF&OF), Inner Race and Ball Compound Fault (IF&BF), Inner Race and Cage Compound Fault (IF&CF), Outer Race and Ball Compound Fault (OF&BF), and Inner and Outer Race and Ball Compound Fault (IF&OF&BF). The file format is .mat
 
+![image](https://github.com/user-attachments/assets/bf35a9f5-0e73-4c01-b9d1-1866f2b0f3de)
+
+
+
 Each type of bearing fault data contains two folders: 1.rpm1000_var_load: Contains data for seven different load forces at a fixed speed of 1000 rpm. The load forces are 0, 200, 400, 600, 800, 1000, and 1200 N. 2.var_speed_f600: Contains data for seven different speeds at a fixed load force of 600 N. The speeds are 400, 600, 800, 1000, 1200, 1400, and 1600 rpm.
 
 ![image](https://github.com/user-attachments/assets/a7b48cb2-bf96-464b-bb17-76d227974af1)

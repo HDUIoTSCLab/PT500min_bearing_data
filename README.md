@@ -24,4 +24,3 @@ If you use this dataset, please cite the following reference:
 
 H. Chen, J. Hong, C. Cheng, Y. Kong and X. Zheng, "Zero-Shot Compound Fault Diagnosis Method Using Semantic Construction and Embedding," in IEEE Transactions on Instrumentation and Measurement, doi: 10.1109/TIM.2024.3470961.
 
-If you have any questions or suggestions, please contact honghuan_chen@163.com.

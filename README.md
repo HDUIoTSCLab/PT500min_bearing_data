@@ -18,9 +18,3 @@ Due to the large size of the entire dataset, it is not convenient to download di
 提取码：noo3
 
 ![DC31C8310FF02F1E6CB626527CA8BB8B](https://github.com/user-attachments/assets/52edc14f-02c3-413b-ac90-83304c9025cb)
-
-
-If you use this dataset, please cite the following reference:
-
-H. Chen, J. Hong, C. Cheng, Y. Kong and X. Zheng, "Zero-Shot Compound Fault Diagnosis Method Using Semantic Construction and Embedding," in IEEE Transactions on Instrumentation and Measurement, doi: 10.1109/TIM.2024.3470961.
-
